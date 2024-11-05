@@ -48,7 +48,7 @@ File: specs/Q3_PerformanceUserFilterAddItemCheckout.spec.js
 TEST FILE
 npx wdio run wdio.conf.js
 
-Note -I can't run some test runnig successfulley but spec report show :1 pass,2 faild
+Note -I can't run some test runnig successfulley but spec report show :2 pass,1 faild
 if possible give me a feedback
 
 
