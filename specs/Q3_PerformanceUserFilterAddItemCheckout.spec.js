@@ -28,9 +28,10 @@ describe('Q3: Performance Glitch User Purchase Flow', () => {
     await $('#finish').click();
    
     const successMessage = await $('.complete-header').getText();
-    expect(successMessage).to.equal('THANK YOU FOR YOUR ORDER');
+    expect(successMessage).to.equal('Thank you for your order!');
     await $('.bm-burger-button').click();
     await $('#reset_sidebar_link').click();
     await $('#logout_sidebar_link').click();
   });
 });
+
