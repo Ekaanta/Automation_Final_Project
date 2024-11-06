@@ -15,7 +15,7 @@ This repository contains automated tests for the SauceDemo website using WebDriv
 - [License](#license)
 
 - Node.js (version 14 or higher)
-- npm (Node package manager)
+- npm (Node package manager) 
 - A modern web browser - Google Chrome
 
 - Installation
@@ -45,8 +45,14 @@ verifies product name and total price, completes the purchase, verifies the succ
 resets the app state again, and logs out.
 File: specs/Q3_PerformanceUserFilterAddItemCheckout.spec.js
 
-TEST FILE
+TEST FILE:
 npx wdio run wdio.conf.js
+
+Allue repot:
+npx allure generate allure-results --clean
+npx allure open
+Allue repot image :![image](https://github.com/user-attachments/assets/109bfe34-8bd6-494a-aaff-76687651c6b8) 
+                   ![image](https://github.com/user-attachments/assets/c16b2caf-1a19-44c8-84e4-cd88a3c28bb3)
 
 Note -I can't run some test runnig successfulley but spec report show :2 pass,1 faild
 if possible give me a feedback
